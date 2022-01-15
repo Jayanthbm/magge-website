@@ -2,6 +2,7 @@ import { Col, Layout, Menu, Row } from 'antd';
 
 import { Link } from 'react-router-dom';
 import { MenuOutlined } from '@ant-design/icons';
+
 const { Header } = Layout;
 function MainHeader() {
   const logoText = {
