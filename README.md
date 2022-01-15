@@ -7,6 +7,7 @@
 https://api.codiga.io/project/30703/score/svg
 
 https://api.codiga.io/project/30703/status/svg
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -35,7 +36,6 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
-
 
 ### Deployment
 
