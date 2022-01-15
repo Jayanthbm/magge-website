@@ -1,6 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2d33ad54-9146-476b-ad56-485227cad6fb/deploy-status)](https://app.netlify.com/sites/silly-bose-1df587/deploys)
 
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,7 +28,6 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
-
 
 ### Deployment
 
