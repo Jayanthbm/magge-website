@@ -1,12 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2d33ad54-9146-476b-ad56-485227cad6fb/deploy-status)](https://app.netlify.com/sites/silly-bose-1df587/deploys)
 
-[![DeepSource](https://deepsource.io/gh/Jayanthbm/magge-website.svg/?label=active+issues&show_trend=true&token=1SgCglkBfd3STFW6KVLQTRbs)](https://deepsource.io/gh/Jayanthbm/magge-website/?ref=repository-badge)
 
-[![DeepSource](https://deepsource.io/gh/Jayanthbm/magge-website.svg/?label=resolved+issues&show_trend=true&token=1SgCglkBfd3STFW6KVLQTRbs)](https://deepsource.io/gh/Jayanthbm/magge-website/?ref=repository-badge)
-
-https://api.codiga.io/project/30703/score/svg
-
-https://api.codiga.io/project/30703/status/svg
 ## Available Scripts
 
 In the project directory, you can run:
