@@ -1,5 +1,6 @@
 import { Row, Col, Menu, Layout } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 const { Header } = Layout;
 function MainHeader() {
   const logoText = {
@@ -23,12 +24,25 @@ function MainHeader() {
             collapsedWidth='0'
             overflowedIndicator={<MenuOutlined />}
           >
-            <Menu.Item key='1'>Home</Menu.Item>
-            <Menu.Item key='2'>About</Menu.Item>
-            <Menu.Item key='3'>Gallery</Menu.Item>
-            <Menu.Item key='4'>Events</Menu.Item>
-            <Menu.Item key='5'>How to Reach</Menu.Item>
-            <Menu.Item key='6'>Contact</Menu.Item>
+            <Menu.Item key='1'>
+              {' '}
+              <Link to='/'>Home</Link>
+            </Menu.Item>
+            <Menu.Item key='2'>
+              <Link to='/about'>About</Link>
+            </Menu.Item>
+            <Menu.Item key='3'>
+              <Link to='gallery'>Gallery</Link>
+            </Menu.Item>
+            <Menu.Item key='4'>
+              <Link to='/events'>Events</Link>
+            </Menu.Item>
+            <Menu.Item key='5'>
+              <Link to='/how-to-reach'> How to Reach</Link>
+            </Menu.Item>
+            <Menu.Item key='6'>
+              <Link to='/contact'>Contact</Link>
+            </Menu.Item>
           </Menu>
         </Col>
       </Row>
