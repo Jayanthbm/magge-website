@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { MenuOutlined } from '@ant-design/icons';
 
 const { Header } = Layout;
-function MainHeader() {
+function MainHeader(props) {
   const logoText = {
     color: 'white',
     fontWeight: 'bold',
@@ -21,7 +21,7 @@ function MainHeader() {
           <Menu
             theme='dark'
             mode='horizontal'
-            defaultSelectedKeys={['1']}
+            defaultSelectedKeys={[`${props.active}`]}
             breakpoint='lg'
             collapsedWidth='0'
             overflowedIndicator={<MenuOutlined />}
@@ -34,7 +34,7 @@ function MainHeader() {
               <Link to='/about'>About</Link>
             </Menu.Item>
             <Menu.Item key='3'>
-              <Link to='gallery'>Gallery</Link>
+              <Link to='/gallery'>Gallery</Link>
             </Menu.Item>
             <Menu.Item key='4'>
               <Link to='/events'>Events</Link>

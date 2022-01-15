@@ -36,5 +36,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "mini-css-extract-plugin": "2.4.5",
+    "surge": "^0.23.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "npm run build && surge --project ./build --domain needless-drawer.surge.sh"
+    }
   }
 }
