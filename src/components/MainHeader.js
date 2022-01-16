@@ -15,7 +15,9 @@ function MainHeader(props) {
     <Header className='header-fixed'>
       <Row>
         <Col xl={12} lg={12} md={12} sm={20} xs={20}>
-          <div style={logoText}>Magge</div>
+          <div className='logo' style={logoText}>
+            Magge
+          </div>
         </Col>
         <Col xl={12} lg={12} md={12} sm={4} xs={4}>
           <Menu

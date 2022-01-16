@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import AboutPage from './pages/AboutPage';
+import { BrowserRouter } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import EventsPage from './pages/EventsPage';
 import GalleryPage from './pages/GalleryPage';
@@ -11,7 +12,7 @@ import React from 'react';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutPage />} />
@@ -21,7 +22,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
