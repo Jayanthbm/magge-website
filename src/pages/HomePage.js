@@ -35,44 +35,7 @@ export default function HomePage() {
         </Skeleton>
 
         <div className='site-layout-content'>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            deleniti quaerat non quo aperiam maiores sunt tempore, natus
-            quibusdam iure ad distinctio dolorum consectetur in! Enim ipsa quam
-            soluta veritatis!
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            deleniti quaerat non quo aperiam maiores sunt tempore, natus
-            quibusdam iure ad distinctio dolorum consectetur in! Enim ipsa quam
-            soluta veritatis!
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            deleniti quaerat non quo aperiam maiores sunt tempore, natus
-            quibusdam iure ad distinctio dolorum consectetur in! Enim ipsa quam
-            soluta veritatis!
-          </p>
-
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            deleniti quaerat non quo aperiam maiores sunt tempore, natus
-            quibusdam iure ad distinctio dolorum consectetur in! Enim ipsa quam
-            soluta veritatis!
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            deleniti quaerat non quo aperiam maiores sunt tempore, natus
-            quibusdam iure ad distinctio dolorum consectetur in! Enim ipsa quam
-            soluta veritatis!
-          </p>
-
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            deleniti quaerat non quo aperiam maiores sunt tempore, natus
-            quibusdam iure ad distinctio dolorum consectetur in! Enim ipsa quam
-            soluta veritatis!
-          </p>
+          <Skeleton active paragraph={{ rows: 30 }} />
         </div>
       </Content>
       <FooterComponent />

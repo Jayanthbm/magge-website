@@ -4,8 +4,12 @@ const { Footer } = Layout;
 function FooterComponent() {
   return (
     <>
-      <Footer style={{ textAlign: 'center' }}>
-        ©{new Date().getFullYear()} Created by Magge
+      <Footer
+        style={{
+          textAlign: 'center',
+        }}
+      >
+        ©{new Date().getFullYear()} Magge
       </Footer>
     </>
   );

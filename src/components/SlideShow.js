@@ -10,7 +10,7 @@ function SlideShow(props) {
             <div
               style={{
                 backgroundColor: '#CCCCCC',
-                maxHeight: 400,
+                maxHeight: 500,
               }}
             >
               <img
