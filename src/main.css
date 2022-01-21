@@ -80,7 +80,6 @@
 }
 
 h2 {
-  font-family: "Arimo", sans-serif;
   color: #fff;
   font-size: clamp(30px, 6vw, 60px);
   letter-spacing: 2px;
@@ -182,16 +181,7 @@ textarea:valid + label {
   filter: sepia(0.5);
 }
 
-@media only screen and (max-width: 800px) {
-  h2 {
-    font-size: clamp(40px, 10vw, 60px);
-  }
-}
-
 @media only screen and (max-width: 400px) {
-  h2 {
-    font-size: clamp(30px, 12vw, 60px);
-  }
 
   .links {
     padding-top: 30px;
